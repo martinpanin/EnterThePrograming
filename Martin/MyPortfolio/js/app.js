@@ -6,3 +6,12 @@ document.querySelector("#bats").addEventListener("click", function(){
         document.querySelector("body").classList.remove("invert");
     }
 });
+
+document.querySelector(".penis").addEventListener("click", function(){
+   const penis = document.querySelector("article").classList.contains("penis");
+    if (penis !== true) {
+        document.querySelector("article").classList.add("penis");
+    } else {
+        document.querySelector("article").classList.remove("penis");
+    }
+});

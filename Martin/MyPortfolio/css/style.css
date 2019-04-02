@@ -108,4 +108,12 @@ footer {
   padding: 10px;
 }
 
+.penis {
+  background-image: url("https://media.tenor.com/images/ce2f57e8fde6adc08f7932c5e2f7ac91/tenor.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: default;
+}
+
 .invert { filter: invert(100%);}

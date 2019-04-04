@@ -1,0 +1,42 @@
+#fabulous {transform: rotate(90deg);}
+.title{background: green;}
+
+
+
+body {mrgin:0; pading:0;
+
+}
+header {background: #222233; font-size: 20px;}
+
+pre {color: #aaccff; }
+h1 {color: #DAA520}
+h2 {color: #DAA520}
+
+.pic {
+width: 150px;
+heght: 150px;
+}
+.picbig{
+position:absolute;
+width:0px;
+-webkit-transition:width 0.3s linear 0s;
+transition:width 0.3s linear 0s;
+z-index:100;
+}
+.pic:hover + .picbig{
+width:400px;
+}
+.sizebig {
+font-size: 10px;
+font-weight: bold;
+background: red;
+}
+input {margin:10px; padding:10px;}
+
+
+
+/*from flexbox*/
+.container {display: flex;
+flex-flow: row wrap;}
+.box {flex:1 50%; border: 1px solid black; background:#e8b878;}
+.main { background: #667711; flex: 3;}

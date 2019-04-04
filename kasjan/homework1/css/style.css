@@ -1,0 +1,96 @@
+.my-title {
+  background: #bac3c370;
+
+}
+.colorred {
+  color: red;
+
+}
+
+.fontsize1 {
+font-size: 30px;
+
+}
+.center {text-align: center;}
+
+#unique {transform: rotate(20deg);}
+  h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  h2 {
+    font-size:25px;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+  h3 {
+    font-size:25px;
+  }
+  h4 {
+    font-size:25px;
+  }
+  h5 {
+    font-size:25px;
+  }
+  pre {
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  margin: auto;
+  width: 910px;
+  }
+
+  a:link {
+color: black;
+text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+color: green;
+text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+color: darkred;
+text-decoration:none;
+}
+
+/* selected link */
+a:active {
+color: black;
+}
+
+header {font-family: Helvetica, sans-serif;
+}
+body {background-image: url(https://farm3.staticflickr.com/2639/4056455564_b604a96056_b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+}
+/* from grid.html*/
+input {margin:10px;
+padding: 5px}
+
+
+
+
+
+/*from Flex.html */
+.container {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.box {
+  flex: 1;
+  border: 2px solid darkblue;
+  background: #de69694f;
+
+}
+.main {
+  background-color: green;
+  flex: 3;
+
+}

@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+h1{
+  font-size: 24px;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #7b1fa2;
+  background-image: url('https://www.transparenttextures.com/patterns/broken-noise.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-flow: row wrap;
+  max-width: 660px;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  flex:1 100%;
+
+}
+.left {
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-items: center;
+  justify-content: end;
+}
+.right {
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: start;
+}
+.center{
+  flex:3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.block {
+  width: 60px;
+  height:60px;
+  border:1px solid black;
+  margin: 2px;
+  position: relative;
+  flex: 1 auto;
+  flex-grow: initial;
+}
+
+.center .block {
+  background-color: orange;
+}
+
+.right .block {
+  background-color: lightgreen;
+}
+
+.left .block {
+  background-color: lightblue;
+}
+
+.right::before {
+    content: "Database";
+    display: block;
+    flex: 1 100%;
+}
+.center::before {
+    content: "Front-end";
+    display: block;
+    flex: 1 100%;
+}
+.left::before {
+    content: "Back-end";
+    display: block;
+    flex: 1 100%;
+}
+
+.block h3 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 15px
+}
+.block span {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 8px
+}
+
+.block p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 12px
+}

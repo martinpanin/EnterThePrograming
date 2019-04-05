@@ -6,12 +6,27 @@ body{
 }
 h1{
   font-size: 24px;
+  margin: 0;
+  font-weight: 400;
 }
+
+h2{
+  font-size: 24px;
+  margin: 0;
+  font-weight: 300;
+}
+.avatar {
+  max-width: 300px;
+  border-radius: 50%;
+
+}
+
 .container {
   height: 100vh;
   width: 100%;
   background-color: #7b1fa2;
   background-image: url('https://www.transparenttextures.com/patterns/broken-noise.png');
+  background-blend-mode: difference;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -22,7 +37,7 @@ h1{
 .table {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: baseline;
   flex-flow: row wrap;
   max-width: 660px;
   text-align: center;
@@ -55,7 +70,7 @@ h1{
   flex-wrap: wrap;
   flex-direction: row;
   justify-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .block {
@@ -69,15 +84,15 @@ h1{
 }
 
 .center .block {
-  background-color: orange;
+  background-color: #ffa50099;
 }
 
 .right .block {
-  background-color: lightgreen;
+  background-color: #90ee9080;
 }
 
 .left .block {
-  background-color: lightblue;
+  background-color: #add8e680;
 }
 
 .right::before {
@@ -102,7 +117,8 @@ h1{
   position: absolute;
   top: 5px;
   left: 5px;
-  font-size: 15px
+  font-size: 15px;
+  font-weight:400;
 }
 .block span {
   margin: 0;
@@ -110,7 +126,8 @@ h1{
   position: absolute;
   top: 5px;
   right: 5px;
-  font-size: 8px
+  font-size: 8px;
+  font-weight:300;
 }
 
 .block p {
@@ -119,5 +136,5 @@ h1{
   position: absolute;
   bottom: 5px;
   left: 5px;
-  font-size: 12px
+  font-size: 12px;
 }

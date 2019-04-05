@@ -1,1 +1,17 @@
-body {background: red;}
+body {
+  background: lightblue;
+}
+
+.maintitle {
+color: white;
+  text-shadow: black 23px;
+
+}
+.headerspace {
+  padding: 100px 0 100px 0;
+}
+.secondtitle
+
+.center {
+  text-align: center;
+}

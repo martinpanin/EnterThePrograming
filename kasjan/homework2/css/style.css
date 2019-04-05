@@ -1,5 +1,10 @@
 body {
-  background: lightblue;
+  background: grey;
+}
+.headerbackground {
+  background-image: url(sectionbackground.jpeg);
+  background-position: center;
+
 }
 
 .maintitle {
@@ -10,7 +15,7 @@ color: white;
 .headerspace {
   padding: 100px 0 100px 0;
 }
-.secondtitle
+.secondtitle {}
 
 .center {
   text-align: center;

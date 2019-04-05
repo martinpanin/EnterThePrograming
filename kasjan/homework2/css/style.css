@@ -3,8 +3,7 @@ body {
 }
 .headerbackground {
   background-image: url(sectionbackground.jpeg);
-  background-position: center;
-
+  background-size: cover;
 }
 
 .maintitle {

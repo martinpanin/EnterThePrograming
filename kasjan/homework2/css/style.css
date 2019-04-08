@@ -1,21 +1,55 @@
 body {
   background: grey;
+  margin: 0;
+  padding: 0;
 }
+/*HEADER SECTION*/
 .headerbackground {
-  background-image: url(sectionbackground.jpeg);
+  background-image: url('../background2.jpeg');
   background-size: cover;
+  background-position: center;
 }
 
 .maintitle {
 color: white;
-  text-shadow: black 23px;
+  text-shadow: 1px 1px 2px black;
+}
 
+.h1size {
+  font-size: 50px;
 }
 .headerspace {
-  padding: 100px 0 100px 0;
+  padding: 200px 0 200px 0;
 }
 .secondtitle {}
 
 .center {
   text-align: center;
+}
+
+.button {
+  background-color: #F63854;
+  text-decoration-color: : white;
+  font-size: 14px;
+  display: inline-block;
+  padding: 20px 35px;
+  text-align: center; 
+}
+
+/*MAIN SECTION1*/
+body {
+  background-color: white;
+}
+
+.thirdsection {
+  background: lightgray;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background: darkgray;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }

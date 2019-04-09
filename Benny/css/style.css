@@ -6,7 +6,8 @@ background-size: cover;
 }
 .h1 {text-align: center;}
 
-.button1 {background-color:#F63854;
+.button1 {
+  background-color:#F63854;
 	padding:6px 15px 6px 15px;
 	color:#ffffff;
 	font-size:13px;
@@ -16,8 +17,11 @@ background-size: cover;
 	border-radius:0;
 	padding:10px 24px 10px 24px ;
  }
-  /* flex grid*/
-.container{display: flex;
+
+
+.container{
+  display: flex;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }

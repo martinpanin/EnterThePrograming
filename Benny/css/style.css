@@ -1,23 +1,23 @@
 
-  h2{font-size: 20px;}
-  .title{background: purple;
-  }
-  .title1{color: white;
-  }
-  .asd{text-align: center;
-  }
-  #kek {transform: rotate(90deg);}
-  /*поле ввода*/
-body {background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/68/175624ba0294ed1.jpg");background-size:cover}
-input {margin: 10px
-  }
+body {background-image: url("https://assets3.thrillist.com/v1/image/2757164/size/gn-gift_guide_variable_c.jpg");
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.h1 {text-align: center;}
+
+.button1 {background-color:#F63854;
+	padding:6px 15px 6px 15px;
+	color:#ffffff;
+	font-size:13px;
+	font-weight:700;
+	letter-spacing:1px;
+	border:0;
+	border-radius:0;
+	padding:10px 24px 10px 24px ;
+ }
   /* flex grid*/
 .container{display: flex;
-flex-flow: row wrap;
+  justify-content: center;
+  flex-direction: column;
 }
-.box{flex: 1 49%;
-  color: white;
-  border: 1px solid white;
-  }
-.main{background-color: yellow;
-  flex 3;}

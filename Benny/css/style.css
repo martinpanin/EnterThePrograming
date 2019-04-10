@@ -1,10 +1,14 @@
 
-body {background-image: url("https://assets3.thrillist.com/v1/image/2757164/size/gn-gift_guide_variable_c.jpg");
-background-attachment:fixed;
-background-repeat: no-repeat;
-background-size: cover;
+body {
+  margin: 0
 }
-.h1 {text-align: center;}
+.h1 {
+  text-align: center;
+  }
+
+h2.h1 {
+    flex: 1 100%;
+}
 
 .button1 {
   background-color:#F63854;
@@ -25,11 +29,16 @@ background-size: cover;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-}
+  background-image: url("https://assets3.thrillist.com/v1/image/2757164/size/gn-gift_guide_variable_c.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 
 .buttons{
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .button2{
@@ -37,6 +46,6 @@ background-size: cover;
 	font-weight:700;
 	border:0;
 	border-radius:0;
-	padding:10px 24px 10px 24px ;
-  margin: 20px;
+  flex: 1;
+  text-align: center;
 }

@@ -2,19 +2,47 @@
 
 h1 {font-size: 50px; color:white;}
   h2{font-size: 36px; color:white; }
-    h3{font-size: 20px; color:white; }
+    h3{font-size: 20px; color:white;  margin-bottom: 50px;}
+     h4{font-size: 18px; text-align: center;}
 
-.header-1 {
-        color: #f3f3f3;
-        font-size: 50px;
-        font-weight: 400;
-        line-height: 58px;
-        letter-spacing: 2px;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px #000000;
+    .headerspace {
+      padding: 100px 0 100px 0;
+      text-align: center;
     }
-.center {text-align: center;}
-.container { margin: 0px;   padding-right: 15px; padding-left: 15px;  }
-.header-space{ padding: 100px 0 0 0;}
 
-section { background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-13.jpg");  background-attachment: "fixed";
+.button{
+       text-align: center;
+}
+
+.section2 {
+       font-size: 18px;
+}
+
+.skull {
+  display: block;
+      margin:auto;
+width: 50px;
+height: 50px;
+animation-name: spin;
+animation-duration: 5000ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+/* transform: rotate(3deg); */
+ /* transform: rotate(0.3rad);/ */
+ /* transform: rotate(3grad); */
+ /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+}
+
+footer {
+background-color: olive;}
+section { background-image: url("https://sm.ign.com/ign_pl/gallery/d/dawn-of-wa/dawn-of-war-3-ork-faction_ppf3.jpg");  background-attachment: "fixed";

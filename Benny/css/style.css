@@ -49,3 +49,35 @@ h2.h1 {
   flex: 1;
   text-align: center;
 }
+
+.buttontext{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex: 1 100%
+}
+
+.penis{
+  -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+.penis:hover {
+  webkit-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
+.button3{
+  border: 0;
+  radius: 0;
+}
+
+.button3box{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}

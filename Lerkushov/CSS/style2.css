@@ -1,1 +1,20 @@
-header { background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-13.jpg");  background-attachment: fixed;}
+
+
+h1 {font-size: 50px; color:white;}
+  h2{font-size: 36px; color:white; }
+    h3{font-size: 20px; color:white; }
+
+.header-1 {
+        color: #f3f3f3;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 58px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px #000000;
+    }
+.center {text-align: center;}
+.container { margin: 0px;   padding-right: 15px; padding-left: 15px;  }
+.header-space{ padding: 100px 0 0 0;}
+
+section { background-image: url("https://newevolutiondesigns.com/images/freebies/winter-wallpaper-13.jpg");  background-attachment: "fixed";

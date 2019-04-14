@@ -12,9 +12,10 @@ h1 {font-size: 50px; color:white;}
 
 .center{
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  justify-content: center;
+  text-align: center;
 }
+
 
 .button{
        text-align: center;
@@ -47,12 +48,24 @@ animation-timing-function: linear;
 }
 
 .container{
-  margin:auto;
-  display: flex;
+  display: block;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
   flex-direction: row;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 
+}
+.box{
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 footer {

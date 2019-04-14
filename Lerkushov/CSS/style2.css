@@ -10,6 +10,12 @@ h1 {font-size: 50px; color:white;}
       text-align: center;
     }
 
+.center{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .button{
        text-align: center;
 }
@@ -27,10 +33,7 @@ animation-name: spin;
 animation-duration: 5000ms;
 animation-iteration-count: infinite;
 animation-timing-function: linear;
-/* transform: rotate(3deg); */
- /* transform: rotate(0.3rad);/ */
- /* transform: rotate(3grad); */
- /* transform: rotate(.03turn);  */
+
 }
 
 @keyframes spin {
@@ -43,6 +46,15 @@ animation-timing-function: linear;
 }
 }
 
+.container{
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+}
+
 footer {
 background-color: olive;}
-section { background-image: url("https://sm.ign.com/ign_pl/gallery/d/dawn-of-wa/dawn-of-war-3-ork-faction_ppf3.jpg");  background-attachment: "fixed";
+section { background-image: url("https://www.strategygamer.com/assets/BlogPosts/ork-faction.jpg");  background-attachment: "fixed";

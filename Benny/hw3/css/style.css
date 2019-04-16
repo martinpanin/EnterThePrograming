@@ -9,10 +9,6 @@
    margin:0;
 }
 
-a{
-  padding-right: 20px
-}
-
 body{
   background-image: url("https://ak1.picdn.net/shutterstock/videos/11642831/thumb/1.jpg");
   background-size: cover;
@@ -71,14 +67,45 @@ body{
 .container1{
   display: flex;
   flex-flow: row wrap;
-  margin: 20px 0px;
-  flex: 1 50%;
+  justify-content: center;
+  background-color: white;
 }
 
 .mid1{
   display: flex;
   flex-flow: column;
   justify-content: center;
+  flex: 1 40%;
+  align-items: center;
+}
+
+.container section{
+ padding: 0 20
+}
+
+.mid1 h3{
+  color: black;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: 40;
+}
+
+p{background-color: grey; margin: 0; padding: 0;}
+
+.fbutt{
+  width: 50px;
+  height: 50px;
+  padding: 0px 20px;
 }
 
 @-webkit-keyframes mover {

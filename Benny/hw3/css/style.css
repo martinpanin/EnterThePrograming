@@ -69,6 +69,7 @@ body{
   flex-flow: row wrap;
   justify-content: center;
   background-color: white;
+  padding: 20
 }
 
 .mid1{

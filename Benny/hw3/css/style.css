@@ -97,7 +97,7 @@ body{
   background-color: grey;
   display: flex;
   justify-content: center;
-  margin: 40;
+  padding: 40;
 }
 
 p{background-color: grey; margin: 0; padding: 0;}
